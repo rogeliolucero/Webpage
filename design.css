@@ -1,0 +1,112 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #cc85c2;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #007d98;
+    margin-bottom: 20px;
+    background-color: #cc85c2;
+    border-radius: 61px;
+    box-shadow: 5px 5px 0px #888, -5px -5px 0px #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .topnav {
+    display: flex;
+  }
+  
+  .topnav a button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 15px;
+    color: #007d98;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    box-shadow: 4px 8px 19px -3px rgb(255, 255, 255);
+    transition: all 250ms;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #cc85c2;
+    z-index: -1;
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+  }
+  
+  button:hover {
+    background-color: #222;
+  }
+  
+  button:hover::before {
+    width: 100%;
+  }
+  
+  .hero-section,
+  .image-section,
+  .video-section,
+  .information-section {
+    background-color: #cc85c2;
+    border-radius: 61px;
+    box-shadow: 5px 5px 0px #0390af, -5px -5px 0px #fff;
+    padding: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section h2,
+  .image-section h2,
+  .video-section h2,
+  .information-section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .product-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  
+  .video-container {
+    text-align: center;
+  }
+  
+  footer {
+    background-color:#cc85c2;
+    border-radius: 61px;
+    box-shadow: 5px 5px 0px #888, -5px -5px 0px #fff;
+    padding: 20px;
+    color: #007d98;
+    text-align: center;
+    margin-top: 20px;
+  }
